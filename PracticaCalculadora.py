@@ -22,6 +22,7 @@ def BorrarTodo():
 	global i
 	Resultado.delete(i,END)
 	i = 0
+	return Resultado.delete(i,END)
 
 
 def BorrarUno():
